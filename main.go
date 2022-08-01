@@ -2,12 +2,13 @@ package main
 
 import (
 	"context"
-	"example/main/handlers"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
 	"time"
+
+	"github.com/dm-uporov/HelloGo/handlers"
 )
 
 func main() {

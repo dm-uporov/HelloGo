@@ -1,11 +1,12 @@
 package handlers
 
 import (
-	"example/main/data"
 	"log"
 	"net/http"
 	"regexp"
 	"strconv"
+
+	"github.com/dm-uporov/HelloGo/data"
 )
 
 type Products struct {
